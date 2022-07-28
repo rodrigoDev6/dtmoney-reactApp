@@ -1,14 +1,14 @@
-import logoImg  from './../assets/logo.svg';
-import { Container } from "./styles";
+import logoImg from '../../assets/logo.svg'
+import { Button, Container, Content } from './styles'
 
-export function Header(){
-  return(
+export function Header() {
+  return (
     <Container>
-      <img src={logoImg} alt="Logo dt money" />
+      <Content>
+        <img src={logoImg} alt="Logo dt money" />
 
-      <button type="button">
-        Nova Transação
-      </button>
+        <Button>Nova Transação</Button>
+      </Content>
     </Container>
   )
 }
