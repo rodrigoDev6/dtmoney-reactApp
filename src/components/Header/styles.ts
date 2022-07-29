@@ -23,4 +23,11 @@ export const Button = styled.button`
 
   border-radius: 5px;
   border: none;
+  transition: 0.5s;
+
+  outline: 0.1rem;
+
+  :hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
 `

@@ -13,7 +13,7 @@ export function TransactionsTable() {
         <thead>
           <tr>
             <th>Titulo</th>
-            <th>Preço</th>
+            <th>Preço </th>
             <th>Categoria</th>
             <th>Data</th>
           </tr>
@@ -28,7 +28,7 @@ export function TransactionsTable() {
           </tr>
           <tr>
             <td>Caixa de ovos</td>
-            <td className="withdraw">R$ -15,00</td>
+            <td className="withdraw">- R$ 15,00</td>
             <td>Alimentação</td>
             <td>17/01/2022</td>
           </tr>
