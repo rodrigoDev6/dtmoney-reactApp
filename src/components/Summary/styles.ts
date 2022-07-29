@@ -31,7 +31,10 @@ export const Card = styled.div`
     font-weight: 500;
   }
 
-  :last-child {
+  :nth-child(2n) strong {
+    color: var(--red);
+  }
+  :nth-child(3n) {
     background-color: var(--green);
     color: var(--shape);
   }
